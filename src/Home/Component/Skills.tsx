@@ -45,8 +45,8 @@ export function Skills() {
       skills: [
         { name: 'Problem Solving', level: 90 },
         { name: 'Communication', level: 85 },
-        { name: 'Team Collaboration', level: 88 },
-        { name: 'Time Management', level: 86 },
+        { name: 'Time Management', level: 88 },
+        { name: 'Continuous Learning Mindset', level: 86 },
       ],
     },
   ];
@@ -180,7 +180,7 @@ export function Skills() {
               Currently Learning
             </p>
             <p className="text-foreground" style={{ fontSize: '1.25rem', fontWeight: 700 }}>
-              Advanced Next.js, TypeScript & GraphQL
+              Advanced Next.js, TypeScript 
             </p>
           </div>
         </motion.div>
