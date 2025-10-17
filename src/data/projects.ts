@@ -19,7 +19,7 @@ export const projects: Project[] = [
     description: "🎓 Modern Educational Platform for Collaborative Learning",
     longDescription: "A comprehensive React-based web application that connects students and tutors for collaborative study sessions, featuring real-time session management, secure payments, and interactive learning materials.",
     techStack: ["React", "Node.js", "MongoDB", "Tailwind CSS", "Express"],
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800",
+    image: "https://i.postimg.cc/ZKWQcdYv/pexels-diego-romero-471613950-19147326.jpg",
     liveUrl: "https://resilient-vacherin-ecfaf3.netlify.app/",
     githubUrl: "https://github.com/01775012014/Study-Platform-Clinde-A12",
     category: "fullstack"
@@ -31,18 +31,18 @@ export const projects: Project[] = [
     description: "A modern React web app for discovering and managing athletic events.",
     longDescription: "A comprehensive web application for discovering, booking, and managing athletic events. Built with modern React technologies and featuring a beautiful, responsive design.",
     techStack: ["React", "Node.js", "MongoDB", "Socket.io", "CSS3"],
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800",
+    image: "https://i.postimg.cc/L8bQZ6Fq/competition-sophisticated-hispanic-happy-intelligence.jpg",
     liveUrl: "https://mellifluous-caramel-bd2364.netlify.app/",
     githubUrl: "https://github.com/Md-Eyamin-Sheikh/SportZone-A11?tab=readme-ov-file",
     category: "fullstack"
   },
   { // {A8
     id: 3,
-    title: "FlagshipFaceOff - Premium Phone Marketplace",
+    title: "payment services available in Bangladesh?",
     description: "A modern React-based web application for browsing, comparing, and exploring flagship smartphones.",
     longDescription: "Created an interactive weather dashboard that displays current weather, hourly forecasts, and 7-day predictions. Features include location-based weather, weather maps, and customizable units.",
     techStack: ["React", "JavaScript", "Tailwind CSS", "Weather API"],
-    image: "https://images.unsplash.com/photo-1592210454359-9043f067919b?w=800",
+    image: "https://i.postimg.cc/J42GJpbh/paying-bills.avif",
     liveUrl: "https://admirable-fox-fa58e5.netlify.app/",
     githubUrl: "https://github.com/programming-hero-web-course1/b11a9-react-authentication-01775012014?tab=readme-ov-file",
     category: "frontend"
@@ -65,7 +65,7 @@ export const projects: Project[] = [
     description: "A full-stack blogging platform with markdown support and comment system.",
     longDescription: "Built a comprehensive blogging platform with markdown editor, syntax highlighting for code blocks, comment system, user profiles, and SEO optimization. Includes admin panel for content management.",
     techStack: ["React", "Next.js", "Tailwind CSS", "Framer Motion"],
-    image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=800",
+    image: "https://i.postimg.cc/Sst3XCwz/banner-img-1.png",
     liveUrl: "https://tourmaline-pie-b410b8.netlify.app/",
     githubUrl: "https://github.com",
     category: "frontend"
@@ -76,7 +76,7 @@ export const projects: Project[] = [
     description: "HobbyHub is your gateway to discovering meaningful connections through shared passions.",
     longDescription: "HobbyHub is your gateway to discovering meaningful connections through shared passions. We believe that hobbies are more than just activities — they're the threads that weave communities together and create lasting friendships.",
     techStack: ["React", "Tailwind CSS", "JavaScript", "Framer Motion"],
-    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800",
     liveUrl: "https://visionary-pixie-6ba9dc.netlify.app/",
     githubUrl: "https://github.com/Programming-Hero-Web-Course4/b11a10-client-side-01775012014",
     category: "fullstack"

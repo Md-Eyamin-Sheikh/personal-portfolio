@@ -2,21 +2,39 @@ import { motion } from 'framer-motion';
 import { GraduationCap, Calendar, MapPin, Award } from 'lucide-react';
 
 export function Education() {
+  // const education = [
+  //   {
+  //     degree: 'Diploma in Engineering',
+  //     field: 'Computer Technology',
+  //     institution: 'Bogura Polytechnic Institute',
+  //     location: 'Bogura, Bangladesh',
+  //     period: '2023 - 2025',
+  //     description: 'Specialized in computer science, programming, and web technologies. Achieved excellence in software development and database management courses.',
+  //     achievements: [
+  //       'Top performer in Web Development courses',
+  //       'Led multiple team projects',
+  //       'Participated in coding competitions',
+  //     ],
+  //   },
+  // ];
+
   const education = [
-    {
-      degree: 'Diploma in Engineering',
-      field: 'Computer Technology',
-      institution: 'Bogura Polytechnic Institute',
-      location: 'Bogura, Bangladesh',
-      period: '2021 - 2025',
-      description: 'Specialized in computer science, programming, and web technologies. Achieved excellence in software development and database management courses.',
-      achievements: [
-        'Top performer in Web Development courses',
-        'Led multiple team projects',
-        'Participated in coding competitions',
-      ],
-    },
-  ];
+  {
+    degree: 'Diploma in Engineering',
+    field: 'Computer Technology',
+    institution: 'Bogura Polytechnic Institute',
+    location: 'Bogura, Bangladesh',
+    period: '2023 - Present',
+    description:
+      'Currently studying in the 4th semester of the Diploma in Engineering program. Passionate about technology with a strong ability to learn quickly. Focused on computer science, programming, and modern web technologies.',
+    achievements: [
+      'Developed a deep interest in technology and innovation',
+      'Known for quick learning and problem-solving skills',
+      'Actively participating in team projects and web development activities',
+    ],
+  },
+];
+
 
   return (
     <section id="education" className="py-20 bg-muted/30 relative overflow-hidden">

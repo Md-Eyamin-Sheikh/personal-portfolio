@@ -5,6 +5,7 @@ import { Button } from '../../ui/button';
 import { Input } from '../../ui/input';
 import { Textarea } from '../../ui/textarea';
 import { toast } from 'sonner';
+import emailjs from '@emailjs/browser';
 
 export function Contact() {
   const [formData, setFormData] = useState({
@@ -12,12 +13,34 @@ export function Contact() {
     email: '',
     message: '',
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission (mock)
-    toast.success('Message sent! I\'ll get back to you soon.');
-    setFormData({ name: '', email: '', message: '' });
+    setIsSubmitting(true);
+
+    try {
+      // Replace with your EmailJS credentials
+      await emailjs.send(
+        'YOUR_SERVICE_ID',      // Replace with your service ID
+        'YOUR_TEMPLATE_ID',     // Replace with your template ID
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+          to_email: 'mdeyaminshekh0@gmail.com',
+        },
+        'YOUR_PUBLIC_KEY'       // Replace with your public key
+      );
+      
+      toast.success('Message sent successfully! I\'ll get back to you soon.');
+      setFormData({ name: '', email: '', message: '' });
+    } catch (error) {
+      console.error('Failed to send email:', error);
+      toast.error('Failed to send message. Please try emailing me directly.');
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   const contactInfo = [
@@ -229,10 +252,11 @@ export function Contact() {
 
               <Button
                 type="submit"
-                className="w-full bg-secondary hover:bg-secondary/90 text-white gap-2 py-6"
+                disabled={isSubmitting}
+                className="w-full bg-secondary hover:bg-secondary/90 text-white gap-2 py-6 disabled:opacity-50 disabled:cursor-not-allowed"
               >
                 <Send className="w-5 h-5" />
-                Send Message
+                {isSubmitting ? 'Sending...' : 'Send Message'}
               </Button>
             </form>
           </motion.div>

@@ -64,14 +64,24 @@ export function About() {
               <div className="absolute inset-0 bg-gradient-to-t from-primary/50 to-transparent" />
             </div>
             {/* Floating badge */}
+            {/* <motion.div
+              animate={{ y: [0, -10, 0] }}
+              transition={{ duration: 4, repeat: Infinity }}
+              className="absolute -bottom-6 -right-6 bg-accent text-accent-foreground px-6 py-4 rounded-2xl shadow-xl border-4 border-background"
+            >
+              <p style={{ fontSize: '1rem', fontWeight: 700 }}>1+ Years</p>
+              <p style={{ fontSize: '0.875rem' }}>Experience</p>
+            </motion.div> */}
+
             <motion.div
               animate={{ y: [0, -10, 0] }}
               transition={{ duration: 4, repeat: Infinity }}
               className="absolute -bottom-6 -right-6 bg-accent text-accent-foreground px-6 py-4 rounded-2xl shadow-xl border-4 border-background"
             >
-              <p style={{ fontSize: '1rem', fontWeight: 700 }}>3+ Years</p>
-              <p style={{ fontSize: '0.875rem' }}>Experience</p>
+              <p style={{ fontSize: '1rem', fontWeight: 700 }}>20+ Projects</p>
+              <p style={{ fontSize: '0.875rem' }}>Built & Deployed</p>
             </motion.div>
+
           </motion.div>
 
           {/* Content Section */}
