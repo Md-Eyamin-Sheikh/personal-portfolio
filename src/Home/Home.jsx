@@ -4,6 +4,7 @@ import { About } from './Component/About';
 import { Education } from './Component/Education';
 import { Skills } from './Component/Skills';
 import { Projects } from './Component/Projects';
+import { Contact } from './Component/Contact';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             {/*add My Projects */}
             <Projects/>
             {/* Get In Touch */}
+            <Contact/>
         
         </>
     );
