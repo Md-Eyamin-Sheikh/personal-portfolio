@@ -5,11 +5,12 @@ import App from './App.jsx'
 
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
+import ManRout from './MainComponent/ManRout.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div className='text-2xl'>Hello World</div>,
+    element: <ManRout/>,
   },
 ]);
 
