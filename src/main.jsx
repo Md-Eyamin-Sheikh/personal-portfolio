@@ -6,11 +6,20 @@ import App from './App.jsx'
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 import ManRout from './MainComponent/ManRout.jsx';
+import Home from './Home/Home.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <ManRout/>,
+    children: [
+      {
+        path: "/",
+        element:<Home/>,
+
+
+      },
+    ]
   },
 ]);
 
