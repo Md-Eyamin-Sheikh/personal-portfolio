@@ -139,7 +139,7 @@ export function Hero() {
             >
               <motion.a
                 whileHover={{ scale: 1.1, y: -2 }}
-                href="https://github.com"
+                href="https://github.com/Md-Eyamin-Sheikh?tab=repositories"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded-lg bg-secondary/10 text-secondary hover:bg-secondary hover:text-white transition-all"
@@ -157,7 +157,7 @@ export function Hero() {
               </motion.a>
               <motion.a
                 whileHover={{ scale: 1.1, y: -2 }}
-                href="mailto:eyamin@example.com"
+                href="mailto:mdeyaminshekh0@gmail.com"
                 className="p-3 rounded-lg bg-secondary/10 text-secondary hover:bg-secondary hover:text-white transition-all"
               >
                 <Mail className="w-6 h-6" />

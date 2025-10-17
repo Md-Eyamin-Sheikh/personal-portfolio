@@ -24,20 +24,20 @@ export function Contact() {
     {
       icon: Mail,
       label: 'Email',
-      value: 'eyamin@example.com',
-      href: 'mailto:eyamin@example.com',
+      value: 'mdeyaminshekh0@gmail.com',
+      href: 'mailto:mdeyaminshekh0@gmail.com',
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '+880 1234-567890',
-      href: 'tel:+8801234567890',
+      value: '+880 01775012014',
+      href: 'tel:+8801775012014',
     },
     {
       icon: MapPin,
       label: 'Location',
       value: 'Bogura, Bangladesh',
-      href: 'https://maps.google.com',
+      href: 'https://www.google.com/maps/place/Obokash+Building,+BPI/@24.8231562,89.3750188,800m/data=!3m2!1e3!4b1!4m6!3m5!1s0x39fc55afd4cbd337:0x2831ce6455b8a7ba!8m2!3d24.8231514!4d89.3775937!16s%2Fg%2F11ry78z1cf?entry=ttu&g_ep=EgoyMDI1MTAxNC4wIKXMDSoASAFQAw%3D%3D',
     },
   ];
 
@@ -45,7 +45,7 @@ export function Contact() {
     {
       icon: Github,
       label: 'GitHub',
-      href: 'https://github.com',
+      href: 'https://github.com/Md-Eyamin-Sheikh?tab=repositories',
       color: 'hover:bg-gray-600',
     },
     {
@@ -57,7 +57,7 @@ export function Contact() {
     {
       icon: Twitter,
       label: 'Twitter',
-      href: 'https://twitter.com',
+      href: 'https://x.com/eyamin_2004',
       color: 'hover:bg-sky-500',
     },
   ];
