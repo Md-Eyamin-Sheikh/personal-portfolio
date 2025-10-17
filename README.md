@@ -1,16 +1,75 @@
-# React + Vite
+# Personal Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio website built with React and Vite.
 
-Currently, two official plugins are available:
+## Main Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   **Hero Section:** A welcoming section to introduce myself.
+*   **About Section:** A brief description of my background and experience.
+*   **Skills Section:** A list of my technical skills.
+*   **Education Section:** Details about my educational qualifications.
+*   **Projects Section:** A showcase of my projects with links to the live versions and source code.
+*   **Contact Section:** A form to get in touch with me.
 
-## React Compiler
+## Instructions to Run the Project on a Local Machine
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/Md-Eyamin-Sheikh/personal-portfolio
+    ```
+2.  **Navigate to the project directory:**
+    ```bash
+    cd personal-portfolio
+    ```
+3.  **Install the dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+5.  **Open your browser and visit `http://localhost:5173/`
 
-## Expanding the ESLint configuration
+## Packages Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Dependencies
+
+| Package                  | Version   |
+| ------------------------ | --------- |
+| @radix-ui/react-slot     | ^1.2.3    |
+| @tailwindcss/vite        | ^4.1.14   |
+| class-variance-authority | ^0.7.1    |
+| clsx                     | ^2.1.1    |
+| framer-motion            | ^12.23.24 |
+| lucide-react             | ^0.546.0  |
+| react                    | ^19.2.0   |
+| react-dom                | ^19.2.0   |
+| react-router             | ^7.9.4    |
+| react-router-dom         | ^7.9.4    |
+| sonner                   | ^2.0.7    |
+| tailwind-merge           | ^3.3.1    |
+| tailwindcss              | ^4.1.14   |
+
+### Dev Dependencies
+
+| Package                   | Version |
+| ------------------------- | ------- |
+| @eslint/js                | ^9.36.0 |
+| @types/react              | ^19.1.16|
+| @types/react-dom          | ^19.1.9 |
+| @vitejs/plugin-react      | ^5.0.4  |
+| daisyui                   | ^5.3.3  |
+| eslint                    | ^9.36.0 |
+| eslint-plugin-react-hooks | ^5.2.0  |
+| eslint-plugin-react-refresh| ^0.4.22 |
+| globals                   | ^16.4.0 |
+| vite                      | ^7.1.7  |
+
+## API Endpoints
+
+This is a frontend-only project, so there are no API endpoints.
+
+## Live Site
+
+https://stupendous-phoenix-cc96cc.netlify.app/
