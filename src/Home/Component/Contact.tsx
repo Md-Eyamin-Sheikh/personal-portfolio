@@ -20,17 +20,16 @@ export function Contact() {
     setIsSubmitting(true);
 
     try {
-      // Replace with your EmailJS credentials
       await emailjs.send(
-        'YOUR_SERVICE_ID',      // Replace with your service ID
-        'YOUR_TEMPLATE_ID',     // Replace with your template ID
+        import.meta.env.VITE_YOUR_SERVICE_ID as string,
+        import.meta.env.VITE_YOUR_TEMPLATE_ID as string,
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
           to_email: 'mdeyaminshekh0@gmail.com',
         },
-        'YOUR_PUBLIC_KEY'       // Replace with your public key
+        import.meta.env.VITE_YOUR_PUBLIC_KEY as string
       );
       
       toast.success('Message sent successfully! I\'ll get back to you soon.');

@@ -113,7 +113,7 @@ export function Header() {
 
           {/* Theme Toggle & Mobile Menu */}
           <div className="flex items-center gap-4">
-            <motion.button
+            {/* <motion.button
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
               onClick={() => setIsDark(!isDark)}
@@ -121,7 +121,7 @@ export function Header() {
               aria-label="Toggle theme"
             >
               {isDark ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
-            </motion.button>
+            </motion.button>*/} 
 
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -130,7 +130,7 @@ export function Header() {
             >
               {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
             </button>
-          </div>
+          </div> 
         </div>
       </nav>
 
