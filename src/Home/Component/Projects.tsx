@@ -51,13 +51,13 @@ export function Projects() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="flex justify-center gap-4 mb-12 flex-wrap"
+          className="flex justify-center gap-4 md:gap-6 mb-12 "
         >
           {(['all', 'frontend', 'fullstack'] as const).map((filterType) => (
             <button
               key={filterType}
               onClick={() => setFilter(filterType)}
-              className={`px-6 py-3 rounded-xl transition-all ${
+              className={`md:px-6 px-3 py-3 rounded-xl transition-all ${
                 filter === filterType
                   ? 'bg-secondary text-white shadow-lg scale-105'
                   : 'bg-card border border-border text-foreground/70 hover:border-secondary/50'

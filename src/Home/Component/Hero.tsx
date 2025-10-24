@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Download, ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '../../ui/button';
+import regomi from '../../../public/Resume of Md Eyamin Sheikh.pdf';
 
 export function Hero() {
   const [currentRole, setCurrentRole] = useState(0);
@@ -117,6 +118,12 @@ export function Hero() {
             >
               <Button
                 className="bg-secondary hover:bg-secondary/90 text-primary-foreground px-6 py-6 gap-2 group"
+                onClick={() => {
+                  const link = document.createElement('a');
+                  link.href = regomi;
+                  link.download = 'Resume of Md Eyamin Sheikh.pdf';
+                  link.click();
+                }}
               >
                 <Download className="w-5 h-5" />
                 Download Resume
